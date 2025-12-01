@@ -11,12 +11,12 @@ Content-Type: application/json
 
 {
   "data":{
-    "name": "charmander",
+    "name": "charmeleon",
     "type1": "fire",
     "type2": "",
-    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/4.ogg",
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-    "hp": 39
+    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/5.ogg",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "hp": 58
     }
 }
 
