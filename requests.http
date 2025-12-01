@@ -2,7 +2,11 @@ GET https://pokeapi.co/api/v2/pokemon
 
 ###
 
-GET https://pokeapi.co/api/v2/pokemon/9
+GET https://pokeapi.co/api/v2/pokemon/
+
+###
+
+GET http://localhost:1337/api/pokemons/
 
 ###
 
@@ -22,10 +26,13 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:1337/api/pokemons/lud1vc9kgvylzfry4zaqqw1s
+PUT http://localhost:1337/api/pokemons/iwhguagh5df64kddulo6qpgj
 Content-Type: application/json
 
 {
+    "data": {
+        "idPokemon": "9"
+    }
 
 }
 
