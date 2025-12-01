@@ -1,4 +1,4 @@
-GET https://pokeapi.co/api/v2/pokemon/vaporeon
+GET https://pokeapi.co/api/v2/pokemon?limit=151&offset=0
 
 ###
 
@@ -35,4 +35,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:1337/api/pokemons/lud1vc9kgvylzfry4zaqqw1s
+DELETE http://localhost:1337/api/pokemons/o1hy0bf8dcm7gkm0j1zpyc02
