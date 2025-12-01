@@ -2,7 +2,7 @@ GET https://pokeapi.co/api/v2/pokemon
 
 ###
 
-GET https://pokeapi.co/api/v2/pokemon/5
+GET https://pokeapi.co/api/v2/pokemon/6
 
 ###
 
@@ -11,12 +11,12 @@ Content-Type: application/json
 
 {
   "data":{
-    "name": "charmeleon",
+    "name": "charizard",
     "type1": "fire",
-    "type2": "",
-    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/5.ogg",
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
-    "hp": 58
+    "type2": "flying",
+    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/6.ogg",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "hp": 78
     }
 }
 
