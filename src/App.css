@@ -1,3 +1,5 @@
+🇬
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +41,121 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* ...existing code... */
+
+/* Container principal */
+.container-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Grille de cartes */
+.pokemon-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Carte individuelle */
+.pokemon-card {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px #d1d1d1, -5px -5px 15px #ffffff;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 8px 20px #c2c2c2, -8px -8px 20px #ffffff;
+}
+
+/* Partie supérieure de la carte */
+.top {
+  background-color: #ffcb05; /* Jaune Pokémon */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 4px solid #3b4cca; /* Bleu Pokémon */
+  position: relative;
+}
+
+.top h2 {
+  margin: 0;
+  color: #3b4cca;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.top p {
+  margin: 5px 0;
+  font-weight: bold;
+  color: #444;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.top img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  filter: drop-shadow(0 5px 5px rgba(0,0,0,0.2));
+  transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover .top img {
+  transform: scale(1.1);
+}
+
+/* Partie inférieure de la carte */
+.bottom {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  background-color: white;
+}
+
+.bottom p {
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
+
+/* Bouton */
+.bottom button {
+  background-color: #ff3e3e; /* Rouge Pokéball */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+  border: 2px solid #cc0000;
+}
+
+.bottom button:hover {
+  background-color: #cc0000;
+}
+
+.bottom button:active {
+  transform: scale(0.95);
 }
