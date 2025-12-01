@@ -1,0 +1,38 @@
+GET https://pokeapi.co/api/v2/pokemon/vaporeon
+
+###
+
+GET https://pokeapi.co/api/v2/evolution-chain/134/
+
+###
+
+GET http://localhost:1337/api/pokemons/
+
+###
+
+POST http://localhost:1337/api/pokemons/
+Content-Type: application/json
+
+{
+  "data":{
+    "name": "Gwen",
+    "idPokemon": 153,
+    "urlPicture": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg"
+  }
+}
+
+###
+
+PUT http://localhost:1337/api/pokemons/lud1vc9kgvylzfry4zaqqw1s
+Content-Type: application/json
+
+{
+  "data":{
+    "name": "Gwen Updated",
+    "idPokemon": 153,
+    "urlPicture": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg"
+  }
+}
+
+###
+DELETE http://localhost:1337/api/pokemons/lud1vc9kgvylzfry4zaqqw1s
