@@ -20,14 +20,14 @@ function App() {
     getData();
   }, []); 
 
-  const handleOnOrTwoTypes = () => {;
-    if (pokemonList.type2) {
+  const handleOnOrTwoTypes = (pokemon) => {
+    if (pokemon.type2) {
       return (
-        <p>Type 1: {pokemonList.type1} | Type 2: {pokemonList.type2}</p>
+        <p>Type 1: {pokemon.type1} | Type 2: {pokemon.type2}</p>
       )
     } else {
       return (
-        <p>Type: {pokemonList.type1}</p>
+        <p>Type: {pokemon.type1}</p>
       )
     }
   }
@@ -41,11 +41,13 @@ function App() {
           <div key={index} className="pokemon-card">
             <div className="top">
               <h2>{pokemon.name}</h2>
+              <p>HP: {pokemon.hp}</p> 
               <img src={pokemon.sprite} alt={pokemon.name} />
             </div>
             <div className="bottom">
               {handleOnOrTwoTypes(pokemon)}
-              <p>HP: {pokemon.hp}</p> 
+              <button
+                onClick={() => new Audio(pokemon.cries).play()}>Hear Cries</button>
             </div>
           </div>
         ))}
