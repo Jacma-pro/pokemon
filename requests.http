@@ -2,7 +2,7 @@ GET https://pokeapi.co/api/v2/pokemon
 
 ###
 
-GET https://pokeapi.co/api/v2/pokemon/7
+GET https://pokeapi.co/api/v2/pokemon/8
 
 ###
 
@@ -11,12 +11,12 @@ Content-Type: application/json
 
 {
   "data":{
-    "name": "squirtle",
+    "name": "wartortle",
     "type1": "water",
     "type2": "",
-    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/7.ogg",
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-    "hp": 44
+    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/8.ogg",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "hp": 59
     }
 }
 
