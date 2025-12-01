@@ -2,7 +2,7 @@ GET https://pokeapi.co/api/v2/pokemon
 
 ###
 
-GET https://pokeapi.co/api/v2/pokemon/
+GET https://pokeapi.co/api/v2/pokemon/5
 
 ###
 
@@ -11,12 +11,12 @@ Content-Type: application/json
 
 {
   "data":{
-    "name": "ivysaur",
-    "type1": "grass",
-    "type2": "poison",
-    "cries": "",
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-    "hp": 45
+    "name": "charmander",
+    "type1": "fire",
+    "type2": "",
+    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/4.ogg",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "hp": 39
     }
 }
 
