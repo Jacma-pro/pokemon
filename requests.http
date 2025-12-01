@@ -2,7 +2,7 @@ GET https://pokeapi.co/api/v2/pokemon
 
 ###
 
-GET https://pokeapi.co/api/v2/pokemon/6
+GET https://pokeapi.co/api/v2/pokemon/7
 
 ###
 
@@ -11,12 +11,12 @@ Content-Type: application/json
 
 {
   "data":{
-    "name": "charizard",
-    "type1": "fire",
-    "type2": "flying",
-    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/6.ogg",
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
-    "hp": 78
+    "name": "squirtle",
+    "type1": "water",
+    "type2": "",
+    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/7.ogg",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "hp": 44
     }
 }
 
