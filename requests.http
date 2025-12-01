@@ -1,12 +1,8 @@
-GET https://pokeapi.co/api/v2/pokemon?limit=151&offset=0
+GET https://pokeapi.co/api/v2/pokemon
 
 ###
 
-GET https://pokeapi.co/api/v2/evolution-chain/134/
-
-###
-
-GET http://localhost:1337/api/pokemons/
+GET https://pokeapi.co/api/v2/pokemon/
 
 ###
 
@@ -15,10 +11,13 @@ Content-Type: application/json
 
 {
   "data":{
-    "name": "Gwen",
-    "idPokemon": 153,
-    "urlPicture": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg"
-  }
+    "name": "ivysaur",
+    "type1": "grass",
+    "type2": "poison",
+    "cries": "",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "hp": 45
+    }
 }
 
 ###
@@ -27,11 +26,7 @@ PUT http://localhost:1337/api/pokemons/lud1vc9kgvylzfry4zaqqw1s
 Content-Type: application/json
 
 {
-  "data":{
-    "name": "Gwen Updated",
-    "idPokemon": 153,
-    "urlPicture": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg"
-  }
+
 }
 
 ###
