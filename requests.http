@@ -2,7 +2,7 @@ GET https://pokeapi.co/api/v2/pokemon
 
 ###
 
-GET https://pokeapi.co/api/v2/pokemon/8
+GET https://pokeapi.co/api/v2/pokemon/9
 
 ###
 
@@ -11,12 +11,12 @@ Content-Type: application/json
 
 {
   "data":{
-    "name": "wartortle",
+    "name": "blastoise",
     "type1": "water",
     "type2": "",
-    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/8.ogg",
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
-    "hp": 59
+    "cries": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/9.ogg",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "hp": 79
     }
 }
 
